@@ -5,6 +5,10 @@ node_modules/
 # Build outputs
 dist/
 .turbo/
+*.ait
+
+# AppsInToss
+.granite/
 
 # IDE
 .vscode/
@@ -18,6 +22,9 @@ Thumbs.db
 *.log
 npm-debug.log*
 pnpm-debug.log*
+
+# Claude Code
+.claude/settings.local.json
 
 # Environment
 .env
